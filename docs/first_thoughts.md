@@ -16,6 +16,6 @@ Based on these requirements I am thinking about the ontology development more in
 
 What I am thinking is some sort of framework of this kind:
 
-<img src='../schemas/first_direction.png' width="1200">
+<img src='images/first_direction.png' width="1200">
 
 In any case, I am thinking of experimenting with the above with the purpose of coming up with data structure / and possibly formats which then I will use to start describing data types and task types -- so that they can be used in first experiments and further extended as we go along. (P.S. one thing that I clearly do not have an idea how to go about are task descriptions of non-Idris AI services beyond type declarations of their inputs and outputs). 
