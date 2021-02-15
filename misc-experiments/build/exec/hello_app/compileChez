@@ -1,0 +1,1 @@
+(parameterize ([optimize-level 3] [compile-file-message #f]) (compile-program "/home/kabir/repos/nunet-repos/snet-ai-dsl/misc-experiments/build/exec/hello_app/hello.ss"))

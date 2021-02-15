@@ -1,0 +1,55 @@
+\documentclass[]{scrartcl}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage[font=scriptsize]{caption}
+\usepackage[font=scriptsize]{subcaption}
+\usepackage{float}
+\usepackage{amssymb,mathtools}
+
+\usepackage[textsize=footnotesize]{todonotes}
+\newcommand{\kabir}[2][]{\todo[color=yellow,author=kabir, #1]{#2}}
+
+%opening
+\title{Thoughts on SNET AI-DSL design}
+
+\newcommand{\footremember}[2]{%
+	\footnote{#2}
+	\newcounter{#1}
+	\setcounter{#1}{\value{footnote}}%
+}
+\newcommand{\footrecall}[1]{%
+	\footnotemark[\value{#1}]%
+} 
+\date{\today}
+
+\usepackage{enumitem}
+\setlength{\parskip}{1em}
+
+\usepackage[backend=bibtex,natbib=true,doi=false,style=authoryear-icomp]{biblatex}
+%\usepackage[backend=bibtex,style=authoryear,natbib=true,backref=true,url=false]{biblatex}
+
+%\DefineBibliographyStrings{english}{%
+%  backrefpage = {page},% originally "cited on page"
+%  backrefpages = {pages},% originally "cited on pages"
+%}
+
+\addbibresource{bib.bib}
+\setcounter{secnumdepth}{0} % sections are level 1
+
+\usepackage{xcolor}
+\hypersetup{
+	colorlinks,
+	linkcolor={red!50!black},
+	citecolor={blue!50!black},
+	urlcolor={blue!80!black}
+}
+
+\begin{document}
+	
+	\maketitle
+	\tableofcontents
+
+\section{Return on investment}
+
+
+\end{document}
